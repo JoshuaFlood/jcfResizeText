@@ -1,4 +1,4 @@
-function jcfResizeFont() {
+function jcfResizeText() {
     var elements  = document.getElementsByClassName('jcfResize');
     if (elements.length < 0) {
         return;
@@ -13,4 +13,5 @@ function jcfResizeFont() {
     }
 }
 
-window.addEventListener('resize', jcfResizeFont); 
+jcfResizeText();
+window.addEventListener('resize', jcfResizeText);
