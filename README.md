@@ -12,4 +12,4 @@ If you do not wish for text to be resized when the page loads initially, comment
 ```
 jcfResizeText();
 ```
-located directly before the event listener.
+located directly before the event listener on line 16.
